@@ -1,16 +1,15 @@
 package org.firstinspires.ftc.teamcode.Hardware;
-import android.graphics.ColorSpace;
 
 import com.qualcomm.robotcore.hardware.Gamepad;
 import org.firstinspires.ftc.teamcode.Hardware.Depositor.LiftStates;
 import org.firstinspires.ftc.teamcode.Hardware.Intake.IntakeStates;
-import org.firstinspires.ftc.teamcode.Hardware.Intake.IntakeSpinnerStates
+import org.firstinspires.ftc.teamcode.Hardware.Intake.IntakeSpinnerStates;
 
 
 
 public class TeleOp{
 
-    public void(Gamepad currentgamepad Gamepad previousgamepad   LiftStates LiftStates) {
+    public void(Gamepad gamepad     LiftStates LiftStates) {
         boolean currentgamepad;
         boolean previousgamepad;
         LiftStates = LiftStates.RETRACT;
